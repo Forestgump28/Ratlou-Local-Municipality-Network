@@ -4,8 +4,9 @@
 **Student Name:** MZOBE, BAYA  
 **Student Number:** 44027516  
 **Institution:** North-West University  
-**Submission Date:** 02 October 2026  
-**Repository:** [Ratlou Local Municipality Network Project](https://github.com/Forestgump28/Semester-project)
+**Submission Date:** October 2026  
+**Repository:** [Ratlou Local Municipality Network Project](https://github.com/Forestgump28/Semester-project)  
+**Video Demonstration:** [Watch Inset Presentation Here](PASTE_YOUR_YOUTUBE_OR_DRIVE_VIDEO_LINK_HERE)
 
 ---
 
@@ -32,7 +33,7 @@ The network is structured following Cisco's 3-tier design principles:
 
 ---
 
-## Milestone 2 Implementation: Change Request 2 (CR2)
+## Change Request 2 (CR2) Implementation
 
 ### 1. Scope of Implementation
 Change Request 2 expands the physical infrastructure to accommodate a second operational floor (`Floor 2 Expansion`):
@@ -52,4 +53,5 @@ interface GigabitEthernet0/0.30
 ip dhcp pool CR2Pool
  network 192.168.44.96 255.255.255.224
  default-router 192.168.44.97
+ dns-server 8.8.8.8
  dns-server 8.8.8.8
